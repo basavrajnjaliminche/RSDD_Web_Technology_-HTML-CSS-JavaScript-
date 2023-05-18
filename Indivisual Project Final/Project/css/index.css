@@ -1,0 +1,180 @@
+:root{
+    --gray-800: #343a40;
+    }
+
+
+body{
+    margin: auto;
+    width: 1300px;
+    height:auto;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.head{
+    width:1300px
+}
+
+.banner-container{
+width: 1300px;
+background: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956999.jpg&fm=jpg');
+background-blend-mode: multiply;
+height: 15rem;
+position: relative; 
+}
+.banner-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(230, 230, 240);
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    inset: 0;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+.banner-text h1{
+    font: size 30px;;
+    margin: 0;
+}
+
+nav{
+    background-color:  rgb(248, 229, 229);
+    padding: 0.75rem;
+    width: auto;
+    height: 70px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+
+ul{
+display: flex;
+justify-content:space-around;
+
+}
+
+ul>li {
+list-style-type: none;
+}
+li a {
+    color: var(--gray-800);
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+    box-sizing: border-box;
+    background-color: rgb(234, 240, 240);
+}
+
+.sub-menu{
+   
+    padding-left: 0;
+    padding : 1rem,1rem,1rem,1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 214, 218)f3;
+    border-radius: 2px;
+    display: none;
+}
+
+.menu:hover .sub-menu{
+    display: block;
+    position: absolute;
+    border: #343a40 solid ;
+}
+.sub-menu>li{
+    padding:0.25rem 0;
+    scroll-padding-block: 2px;
+}
+.sub-menu > li:nth-child(1){
+    padding-top: 0;
+}
+ 
+
+
+.head {
+    background-color: rgb(248, 229, 229);
+    font-family: cursive;
+    
+}
+
+.maincontent{
+    background-color:rgb(248, 229, 229));
+    width: 750px;
+    border: 1px solid black;
+    display: flex; 
+    
+}
+.maincontent > img{
+    
+    width:auto;
+    height: auto;
+    display: flex;
+    flex flex: wrap;
+}
+ 
+.rtside{
+    background-color:rgb(248, 229, 229);
+    width:250px;
+    border: 1px solid black;
+    align-items: center;
+    align-content: center;
+}
+.rttext{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+aside{
+    padding: 1rem;
+    border: 1px solid rgb(10, 10, 10);
+    width:300px;
+    background-color: rgb(248, 229, 229);
+}
+footer
+{
+    text-align: center;
+    font-weight: bold;
+    background-color:  rgb(248, 229, 229);
+    padding: 20px 0;
+    font-size: 20px;
+    clear: both;
+    border: 1px solid black;
+}
+
+.home-thumb
+{
+    padding: 1px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.merch-thumb{
+    padding: 1px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.table-thumb{
+    padding: 1px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/buy.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <header class="head">
+        <h1>Basavraj Fundraiser Garage Sale</h1>
+    </header>
+    
+
+    <main>
+        <form name="myForm" id="myForm" method="Post" onsubmit="return formSubmit();"  action="" >
+            <label>Whai is your name ?</label>
+            <input id="name" placeholder="First Last" type="text" name="name"><br/>
+        
+            <label>Email</label>
+            <input id="email" placeholder="email@domain.com" type="email" name="email"><br/>
+        
+        
+            <label>Credit card Number</label>
+            <input id="creditcard" placeholder="xxxx-xxxx-xxxx-xxxx" type="" name="Creditcard"><br/>
+
+            <label for="month">Expiry in month</label>
+            
+            <select name="month" id="month" >  
+                <option value="">--Please choose an option--</option>
+                <option value="JAN">JAN</option>
+                <option value="FEB">FEB</option>
+                <option value="MAR">MAR</option>
+                <option value="APR">APR</option>
+                <option value="MAY">MAY</option>
+                <option value="JUN">JUN</option>
+                <option value="JUL">JUL</option>
+                <option value="AUG">AUG</option>
+                <option value="SEP">SEP</option>
+                <option value="OCT">OCT</option>
+                <option value="NOV">NOV</option>
+                <option value="DEC">DEC</option>
+
+           </select>
+           <br/>
+
+            <label for="year"> Expiry in Year</label>
+            <select name="year" id="year" >  
+                <option value="">--Please choose an option--</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+
+           </select>
+           <br/>
+        
+            
+
+            <label for="items">Choose a Items:</label>
+
+                <select name="items" id="items" size="1">  
+                     <option value="">--Please choose an option--</option>
+                     <option value="Bicycle">Bicycle</option>
+                     <option value="chair">Chair</option>
+                     <option value="Mattress">Mattress</option>
+                     <option value="Sofa Set">Sofa Set</option>
+                     <option value="Mixer Grindert">Mixer Grindert</option>
+
+                </select>
+            
+                <br/>
+        
+            <label>Number of items</label>
+
+            
+            <select name="itemsno" id="itemsno" size="1">
+                <option value="">----- Select -----</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="2">3</option>
+            </select><br/>
+        
+            
+        
+            <br/><br/>
+        
+            <input type="submit" value="Submit">
+            <p id="errors"></p>
+          </form> 
+          
+          
+     
+
+     <div class="formData">
+        <p id="formResult">This is where the form data should be displayed.</p>
+      </div>
+     </main>
+     <footer class="footer">
+        &copy; Copyright Basavraj jaliminche, 2022  
+     </footer>
+</body>
+<script  src="./js/script.js"></script>
+</html>

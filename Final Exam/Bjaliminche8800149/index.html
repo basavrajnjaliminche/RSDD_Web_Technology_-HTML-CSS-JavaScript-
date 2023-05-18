@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+
+    <title>Nike Shoe Survey</title>
+</head>
+<body>
+     <main class="main">
+		   <header class="top-section">
+			   <img src="images/nike.jpeg" class="profile" />
+			    <p >
+				   <h1 class="logo"> Nike</h1>
+			    </p >
+           </header> 
+
+            <section class="m-section">
+                <h1>Nike Show Companey Survey</h1>
+                <p>
+                     This survey is all about to receive feddback and the choises from the custamer .
+                     In this survey you have to answer few questions . he responses from the custamer
+                     taken into account and we will improve our product quality. 
+                
+                </p>
+
+                <section class="formsval">
+
+                    <form name="myForm" id="myForm" method="Post" onsubmit="return formSubmit();"  action="" >
+                    <label>What is your name ?</label> <br>
+                    <input id="name" placeholder="First Last" type="text" name="name"><br/>
+                
+                    <label>What is your email address ?</label> <br>
+                    <input id="email" placeholder="email@domain.com" type="email" name="email"><br/>
+                    
+                    
+                    <label for="feedback-words">how much you like the nike shoes products in terms of usage
+                         like running,hiking etc ? Tell us in your words for the nike shows:
+                        <textarea id="words" name="words" rows="5" cols="33">  </textarea> 
+                    </label> <br/>
+
+                    <label><p> "Nike Shoes are Best In the Quality and best in the world" ? </label>
+                        Please select how much you agree:</p>
+                       <div>
+                            <input type="radio" id="opinin" name="Stronglydissagree" value="text">
+                           <label for="Stronglydissagree">Strongly Dissagree</label>
+
+                           <input type="radio" id="opinin" name="disagree" value="text">
+   
+                           <label for="disagree">disagree</label>
+
+                           <input type="radio" id="opinin"name="neutral" value="text">
+                           <label for="neutral">neutral</label>
+
+                           <input type="radio" id="opinin"name="strongly agree" value="text">
+                           <label for="strongly agree">strongly agree</label>
+
+                           <input type="radio" id="opinin"name="agree" value="agree">
+                           <label for="agree">agree</label>
+
+                       </div>
+                       <br>
+
+
+    
+    
+                
+                <label for="month">In Which month you bought shoes ?</label><br>
+                
+                    
+                    <label for="month"></label>
+                    
+                    <select name="month" id="month" >  
+                        <option value="">--Please choose an option--</option>
+                        <option value="JAN">JAN</option>
+                        <option value="FEB">FEB</option>
+                        <option value="MAR">MAR</option>
+                        <option value="APR">APR</option>
+                        <option value="MAY">MAY</option>
+                        <option value="JUN">JUN</option>
+                        <option value="JUL">JUL</option>
+                        <option value="AUG">AUG</option>
+                        <option value="SEP">SEP</option>
+                        <option value="OCT">OCT</option>
+                        <option value="NOV">NOV</option>
+                        <option value="DEC">DEC</option>
+        
+                   </select>
+                   <br/>
+        
+                    <label for="year"> In Which Year you Bought shoes?</label><br>
+                    <select name="year" id="year" >  
+                        <option value="">--Please choose an option--</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+        
+                   </select>
+                   <br/>
+                
+                    
+        
+                    <label for="items">Which of the following shoe you like the most ?
+                        Choose a Shoe Model:</label><br>
+        
+                        <select name="items" id="items" size="1">  
+                             <option value="">--Please choose an option--</option>
+                             <option value="Jorden">Jorden</option>
+                             <option value="AirMax">AirMax</option>
+                             <option value="Sneakers">Snekers</option>
+                             <option value="Flex">flex</option>
+                             <option value="Studs">Studs</option>
+                         </select>
+                    
+                        <br/>
+                
+                    <label>how many time tou have bought nike shoes</label><br>
+        
+                    <select name="itemsno" id="itemsno" size="1">
+                        <option value="">----- Select -----</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="more than 2">more than 2</option>
+                    </select><br/>
+                   
+                   <label> <p>What is your shoe size ? also you can select the family members shoe sizes:</p></label>
+
+                     <div>
+                          <input type="checkbox" id="size" name="size"  >
+                          <label for="s7">7</label>
+                     </div>
+
+                      <div>
+                          <input type="checkbox" id="size" name="size">
+                          <label for="s7.5">7.5</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="size" name="size"  >
+                        <label for="s8">8</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="size" name="size"  >
+                        <label for="s8.5">8.5</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="size" name="size"  >
+                        <label for="s9">s9</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="size" name="size"  >
+                        <label for="s9.5">9.5</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="size" name="size"  >
+                        <label for="s10">10</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="size" name="size1"  >
+                        <label for="s11">11</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="size" name="size">
+                        <label for="s12">12</label>
+                      </div>
+                      
+                    <br/><br/>
+                
+                    <input type="submit" value="Submit">
+                    <p id="errors"></p>
+                    
+                    <input type="reset" value="reset">
+                    <p id="reset"></p>
+
+                  </form> 
+                  
+                  
+                </section>
+        
+             <div class="formData">
+                <p id="formResult">This is where the form data should be displayed.</p>
+              </div>
+
+           </section>
+			
+
+
+			
+        
+		
+        
+
+                </main>
+
+                      <footer>
+			                  <p> &copy copyright 2022  Basavraj Jaliminche 8800149 <br>
+				              <a href="www.basavrajjaliminche.com">www.basavrajjaliminche.com</a>
+			                  </p>
+		             </footer> 
+                </div>
+
+        </main>
+</body>
+
+<script  src="js/index.js"></script>
+</html>

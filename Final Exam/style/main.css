@@ -1,0 +1,120 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: radial-gradient(#ccb8b8 25%, #f7f2f2 74%);
+	height: auto;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.logo{
+	font: size 5px;
+	color: brown;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.main{
+	height: auto;
+	width: 1200px;
+	background-color: white;
+	box-shadow: 5px 7px 15px 5px #b9b6b6;
+	margin: 20px auto;
+
+}
+.top-section{
+	background-color:#b6cfc7;
+	text-align: center;
+	padding: 20px;
+	color: rgb(19, 18, 24);
+	border-bottom: 0.5rem solid gray;
+}
+.profile{
+	width: 100px;
+	height: 100px;
+	border-radius: 60%;
+}
+.m-section{
+	text-align: center;
+    align-items: center;
+	background-color:#b6cfc7;
+	padding-top: 1rem;
+
+}
+.forms{
+	text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#errors{
+    color: white;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+
+}
+
+label{
+    width: 600px;
+    display: inline-block;
+    font-size: 18px;
+	font-weight: bold;
+    color: rgb(34, 30, 30);
+}
+form, .formData{
+    width: 580px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px auto;
+    color: white;
+    background-color: #5a7e8d;
+    border-radius: 20px;
+}
+
+
+
+footer{
+	padding:1rem 0;
+	text-align: center;
+	border-top:0.5 rem solid gray;
+	display: block ;
+	background-color:yellowgreen;
+	height: auto;
+	width: 1200px;
+	margin: 20px auto;
+	
+}
+input:not([type="radio"]), select{
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+    padding: 5px 10px;
+}
+input:not([type="radio"]){
+    width: 170px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+select{
+    width: 190px;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 22px;
+    background-color: #bc2990;
+    color: white;
+    font-family: 'Kalam', cursive;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    box-shadow: 4px 4px 0px #8c087a;
+    border-radius: 8px;
+}
+input[type="submit"]:active{
+    box-shadow: -4px -4px 0px #8c087a;
+}
